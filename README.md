@@ -9,6 +9,7 @@ This script uses Google Chrome Web Driver and Python 3.9.0
 - time
 
 Make you sure you have these Libraries installed on your machine.
+You can install these globally or locally using `pip install`
 
 ### Content Files
 - main.py
