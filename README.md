@@ -3,9 +3,9 @@ This is a python script that can be executed in a local machine. The aim of this
 This script uses `webdriver`.
 
 ## Why I create this script?
-There are a lot of times when messages in Group Chats are ignored bacause there's a lot of stuff going on. Another reason is, group chat messages can be covered by newer messages and as the new messages come up in, it's harder to scroll down and look back certain messages. It can deccrease the dissemination of an information or announcement or an event. 
+There are a lot of times when messages in Group Chats are ignored bacause there's a lot of stuff going on. Another reason is... group chat messages can be covered by newer messages and as the new messages come up, it takes time to scroll down and look back certain messages. It can deccrease the dissemination of an information or announcement or an event as other users get tired of looking and reading back in the conversation. 
 
-One solution is directly message each member one by one. But that is very impractical specially if we have a big number of members in the group. So, why not automate this things out?
+One solution is to message each member directly, one by one. But that is very impractical specially if we have a big number of members in the group. So, why not automate this things out?
 
 ### Python Libraries/Packages Dependancies
 - Iterable
