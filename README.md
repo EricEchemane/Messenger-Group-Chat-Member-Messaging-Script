@@ -3,6 +3,8 @@ This is a python script that can be executed in a local machine. The aim of this
 
 This script uses Google Chrome Web Driver and Python 3.9.0
 
+If you have different browser, just look for the appropriate driver base on your browser's version.
+
 ### Python Libraries/Packages Dependancies
 - Iterable
 - Selenium
