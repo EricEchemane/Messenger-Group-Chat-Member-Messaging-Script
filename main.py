@@ -23,8 +23,14 @@ password = driver.find_element_by_id("pass")
 time.sleep(1)
 
 #===================== Actual Login =========================
-email.send_keys("e.echemane")
-password.send_keys("E03292000E")
+email.send_keys("<your_facebook_username>")
+password.send_keys("<your_password>")
+
+# You can also use getpass for more secure login
+
+# from getpass import getpass
+# password.send_keys(getpass())
+
 password.send_keys(Keys.RETURN)
 #===================== Actual Login =========================
 
