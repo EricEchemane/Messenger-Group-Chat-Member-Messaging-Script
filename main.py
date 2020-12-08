@@ -9,6 +9,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 from colorama import Fore
+from getpass import getpass
 
 # ======================= color indication
 WARNING = Fore.RED
@@ -53,8 +54,8 @@ except:
 
 #===================== Actual Login =========================
 try:
-    email.send_keys("e.echemane")
-    password.send_keys("E03292000E")
+    email.send_keys(<"username">)
+    password.send_keys(getpass())
     password.send_keys(Keys.RETURN)
     print(SUCCESS+"Login successful..."+RESET)
 except:
